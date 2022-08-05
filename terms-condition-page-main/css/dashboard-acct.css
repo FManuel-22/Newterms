@@ -23,7 +23,7 @@
     justify-content: center;
     place-items: center;
     color: #ffffff;
-    padding: 12px 70px;
+    padding: 15px 70px;
     gap: 10px;
     text-decoration: none;
     border-radius: 8px;
@@ -44,91 +44,211 @@
     border: 1px solid #111F4D;
   }
   
-  .wrapper2{
+.wrapper {
     display: flex;
-    width: 700px;
-    height: 450px;
+    width: 50%;
+    height: 620px;
     position: absolute;
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.1);
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    visibility: hidden;
     transition: transform 0.4s, top 0.4s;
     background: #ffffff;
-  }
-  
-  .open-popup{
-    visibility: visible;
-    top: 50%;
-    transform: translate(-50%, -50%) scale(1);
-  }
-  
-  .wrapper2 .sidebar2{
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    border-radius: 10px;
+    font-family: poppin sans-serif;
+    font-size: 20px;
+}
+
+.open-popup{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/*RECTOR'S CODE*/
+
+.asid {
+    height: auto;
+    margin: 0;
+}
+
+
+.top2 .close2 {
+    font-size: 25px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+
+.wrapper .sidebar2 {
     position: fixed;
-    width: 150px;
+    text-align: center;
+    width: 18%;
     height: 100%;
     background: #111F4D;
-  }
-  
-  .at2{
+}
+
+.at {
     position: relative;
     top: 80px;
     text-decoration: none;
     color: #D3D3D3;
-    font-size: 24px; 
-  }
-  
-  .at2:hover{
+    font-size: 24px;
+}
+
+.at:hover {
     color: #ffffff;
-  }
-  
-  .as2{
+}
+
+.as {
     text-decoration: none;
     color: #D3D3D3;
     font-size: 24px;
     position: relative;
     top: 90px;
-  }
-  
-  .as2:hover{
+}
+
+.as:hover {
     color: #ffffff;
-  }
-  
-  .an2{
+}
+
+.an {
     text-decoration: none;
     color: #D3D3D3;
     font-size: 24px;
     position: relative;
     top: 100px;
-  }
-  
-  .an2:hover{
+}
+
+.an:hover {
     color: #ffffff;
-  }
-  
-  .ad2{
+}
+
+.ad {
     text-decoration: none;
     color: #D3D3D3;
     font-size: 24px;
     position: relative;
     top: 110px;
-  }
-  
-  .ad2:hover{
+}
+
+.ad:hover {
     color: #ffffff;
-  }
-  
-  .wrapper2 .main-content2 .header2{
+}
+
+.wrapper .main-content .header2 {
     padding: 30px;
-    color:  #111F4D;
+    color: #111F4D;
     font-weight: 600;
     font-size: 22px;
     position: relative;
     left: 270px;
-  }
-  
+}
+
+.for{
+    display: flex;
+    flex-direction: row;
+}
+
+form {
+    display: flex;
+    padding-left: 180px;
+    margin: 30px;
+    line-height: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    height: 42px;
+    width: 70%;
+    border-radius: 7px;
+    border: thin solid #80808075;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.fo{
+    display: flex;
+    flex-direction: row;
+}
+
+.foo{
+    display: flex;
+    flex-direction: row;
+}
+
+.continue {
+    font-size: 18px;
+    background-color: #111F4D;
+    border-radius: 7px;
+    text-decoration: none;
+    padding: 7px 35px;
+    margin: 2px 5px;
+}
+
+.back {
+    font-size: 20px;
+    background-color: white;
+    border-radius: 7px;
+    text-decoration: none;
+    border: 2px solid green;
+    padding: 4px 37px;
+    margin: 2px 5px;
+}
+
+.img {
+    display: flex;
+    padding-left: 290px;
+    margin: 30px;
+    line-height: 30px;
+}
+
+.ready {
+    display: flex;
+    padding-left: 280px;
+    margin: 30px;
+}
+
+.button {
+    display: flex;
+    padding-left: 250px;
+    gap: 110px;
+}
+
+#newBack {
+    font-size: 20px;
+    background-color: white;
+    border-radius: 7px;
+    text-decoration: none;
+    border: 2px solid green;
+    padding: 5px 37px;
+    margin: 2px 5px;
+}
+
+#preview {
+    font-size: 20px;
+    background-color: #111F4D;
+    border-radius: 7px;
+    text-decoration: none;
+    padding: 5px 37px;
+    margin: 2px 5px;
+}
+
+#star {
+    color: saddlebrown;
+}
+
+
+.bars2, .close2 {
+    display: none;
+}
+
+
+/*FMANUEL*/  
   
 .container {
     display: grid;
@@ -136,7 +256,7 @@
     grid-template-columns: 14rem auto;
 }
 
-aside {
+aside{
     border-right: 1px solid black;
     height: 100vh;
     margin: 0;
@@ -171,19 +291,24 @@ aside {
 }
 
 .sidebar ul li {
-    margin-top: 50px;
-    font-size: 25px;
+    margin-top: 10px;
+    font-size: 20px;
 }
 
 .sidebar .logout {
-    margin-top: 170px;
+    margin-top: 300px;
+}
+
+.sidebar .set{
+  margin-top: 60px;
 }
 
 .temp, .set, .logout{
     background-color: #F6F8FA;
     border: 1px solid #111F4D;
+    border-radius: 5px;
     display: grid;
-    height: 45px;
+    height: 40px;
     width: 12rem;
     place-items: center;
 }
@@ -295,6 +420,80 @@ aside {
     }
 
     
+
+  .for{
+      display: grid;
+  }
+  
+  .fo{
+      display: grid;
+  }
+  
+  .foo{
+      display: grid;
+  }
+  
+  .asid {
+      display: none;
+      position: fixed;
+      z-index: 3;
+      height: auto;
+      margin-top: 0;
+      
+  }
+
+  .wrapper .sidebar2 {
+      width: 40%;
+      height: 50%;
+  }
+  
+
+  .ad{
+      margin-top: 40px;
+  }
+
+  .bars2, .close2 {
+      display: block;
+  }
+
+  .main-content .header2{
+      display: flex;
+  }
+
+ 
+  .bars2 {
+     margin-left: 10px; 
+  }
+
+  .bars2 i {
+      font-size: 30px;
+  }
+  .wrapper .main-content .header2 {
+      font-size: 22px;
+      position: relative;
+      left: 90px;
+  }
+ 
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+      height: 36px;
+      width: 90%;
+      padding: 10px;
+  }
+    
+  form {
+      padding-left: 60px;
+      margin: 10px;
+      line-height: 30px;
+  }
+
+  .wrapper {
+      box-shadow: none;
+  }
+ 
+    
 }
 
 
@@ -317,7 +516,84 @@ aside {
       font-size: 11px;
       text-align: center;
     }
+ .container {
+        display: block;
+        
+    }
 
+    .for{
+        display: grid;
+    }
+    
+    .fo{
+        display: grid;
+    }
+    
+    .foo{
+        display: grid;
+    }
+    
+    aside {
+        display: none;
+        position: fixed;
+        z-index: 3;
+        height: auto;
+        margin-top: 0;
+        
+    }
+
+    .wrapper .sidebar {
+        width: 40%;
+        height: 50%;
+    }
+    
+
+    .ad{
+        margin-top: 40px;
+    }
+
+    .bars, .close {
+        display: block;
+    }
+
+    .main-content .header{
+        display: flex;
+    }
+
+   
+    .bars {
+       margin-left: 10px; 
+    }
+
+    .bars i {
+        font-size: 30px;
+    }
+    .wrapper .main-content .header {
+        font-size: 22px;
+        position: relative;
+        left: 90px;
+    }
+   
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    select {
+        height: 36px;
+        width: 90%;
+        padding: 10px;
+    }
+      
+    form {
+        padding-left: 60px;
+        margin: 10px;
+        line-height: 30px;
+    }
+
+    .wrapper {
+        box-shadow: none;
+    }
+   /*FMANUEL*/
+   
    }
 
   

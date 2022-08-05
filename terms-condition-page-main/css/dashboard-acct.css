@@ -378,7 +378,7 @@ aside{
     display: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 784px) {
     .container {
         display: block;
         
@@ -442,6 +442,11 @@ aside{
       
   }
 
+  .wrapper{
+    background: #D3D3D3;
+    height: 850px;
+  }
+
   .wrapper .sidebar2 {
       width: 40%;
       height: 50%;
@@ -456,8 +461,10 @@ aside{
       display: block;
   }
 
-  .main-content .header2{
+  .wrapper .main-content .header2{
       display: flex;
+      position: relative;
+      left: 20px;
   }
 
  
@@ -470,8 +477,6 @@ aside{
   }
   .wrapper .main-content .header2 {
       font-size: 22px;
-      position: relative;
-      left: 90px;
   }
  
   input[type="text"],
@@ -484,7 +489,7 @@ aside{
   }
     
   form {
-      padding-left: 60px;
+      padding-left: 30px;
       margin: 10px;
       line-height: 30px;
   }
@@ -498,13 +503,13 @@ aside{
 
 
 
-@media (max-width: 768px) {
+/*@media (max-width: 784px) {
     .footer {
         margin-top: 240px;
     }
-}
+}*/
 
-@media (max-width: 426px) {
+@media (max-width: 400px) {
    
     
     .account .add {
@@ -555,11 +560,6 @@ aside{
     .bars, .close {
         display: block;
     }
-
-    .main-content .header{
-        display: flex;
-    }
-
    
     .bars {
        margin-left: 10px; 
@@ -569,29 +569,30 @@ aside{
         font-size: 30px;
     }
     .wrapper .main-content .header {
-        font-size: 22px;
-        position: relative;
-        left: 90px;
+        display: none;
     }
    
     input[type="text"],
     input[type="email"],
     input[type="password"],
     select {
-        height: 36px;
+        height: 25px;
         width: 90%;
-        padding: 10px;
+        padding: 5px;
     }
       
     form {
-        padding-left: 60px;
-        margin: 10px;
+        padding-left: 20px;
+        margin: 5px;
         line-height: 30px;
+        font-size: 16px;
     }
 
-    .wrapper {
-        box-shadow: none;
-    }
+    .wrapper{
+        background: #D3D3D3;
+        height: 900px;
+      }
+    
    /*FMANUEL*/
    
    }
